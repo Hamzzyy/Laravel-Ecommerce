@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <link rel="stylesheet" href="{{ asset('css/utilities.css') }}">
     <link rel="stylesheet" href="{{ asset('css/user/utilities.css') }}">
     {{ $style ?? '' }}
-    
+
     <link rel="shortcut icon" href="{{ asset('img/b.png') }}" />
     <title>Beyond | Profile</title>
 
@@ -35,7 +36,7 @@
                     <p class="m-0">{{ auth()->user()->email }}</p>
                 </div>
             </div>
-            
+
             @if (auth()->user()->admin)
                 <a style="color: blue; margin-top:1em" class="d-b" href="{{ route('admin.dashboard') }}">Dashboard</a>
             @else
@@ -86,7 +87,7 @@
             </div>
             <!-- main content -->
             <div style="margin-bottom: 1rem">
-                
+
                 {{ $slot }}
 
             </div>

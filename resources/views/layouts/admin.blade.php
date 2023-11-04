@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    @vite('resources/css/app.css')
     <!-- icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -16,11 +17,11 @@
     <title>Beyond</title>
 
     <!-- scripts -->
-    <script src="{{ asset('js/admin/utilities.js') }}" defer></script>        
+    <script src="{{ asset('js/admin/utilities.js') }}" defer></script>
     {{ $js ?? '' }}
-    
-    {{ $chart ?? '' }}    
-    
+
+    {{ $chart ?? '' }}
+
     <style>
         a[href = "{{ url()->current() }}"]{
             color: var(--text-blue);
