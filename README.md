@@ -2,6 +2,7 @@
 
 * clone the repo and `cd` into it
 * `composer install`
+* `npm install`
 * Rename or copy `.env.example` file to `.env`
 * `php artisan key:generate`
 * generate the symbolic link `php artisan storage:link`
