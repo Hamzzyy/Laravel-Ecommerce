@@ -1,12 +1,12 @@
 ## Installation
 
-Clone Repository
+### Clone Repository
 
 ```
 https://github.com/ch-hamzzyy/Laravel-Ecommerce.git
 ```
 
-Change Directory And Setup Environment
+### Change Directory And Setup Environment
 ```
 cd Laravel-Ecommerce
 ```
@@ -18,7 +18,7 @@ cp .env.example .env
 `Create a Database Named "ecommerce" which is Default but you can change it in .env file`
 * Set your database credentials in your `.env` file
 
-Install Dependencies 
+### Install Dependencies 
 
 ```
 composer install
@@ -27,13 +27,13 @@ composer install
 npm install
 ```
 
-Populate Database 
+### Populate Database 
 
 ```
 php artisan migrate --seed
 ```
 
-Generate Application Key
+### Generate Application Key
 ```
 php artisan key:generate
 ```
@@ -47,7 +47,7 @@ make sure the [less secure app access](https://myaccount.google.com/lesssecureap
 * Set your mail credentials in your `.env` file
 * make sure your machine has turned off outbound mail scanning(if you're using antivirus or some kind of firewall)
 
-Launch the app
+### Launch the app
 ```
  php artisan serve
 ```
