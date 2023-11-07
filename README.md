@@ -38,7 +38,6 @@ Generate Application Key
 php artisan key:generate
 ```
 
-* migrate and seed the normal way with `php artisan migrate --seed`
 
 ### Mail
 
@@ -49,10 +48,15 @@ make sure the [less secure app access](https://myaccount.google.com/lesssecureap
 * make sure your machine has turned off outbound mail scanning(if you're using antivirus or some kind of firewall)
 
 Launch the app
-```bash
+```
  php artisan serve
- ```
+```
+```
+npm run dev
+```
 
+### Note: 
+* Before Pushing In Production Make Sure To Run `npm run build`
 ## Screenshots
 
 ### home page :point_down:
