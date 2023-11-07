@@ -1,11 +1,18 @@
 ## Installation
 
-* clone the repo and `cd` into it
-* `composer install`
-* `npm install`
-* Rename or copy `.env.example` file to `.env`
-* `php artisan key:generate`
-* generate the symbolic link `php artisan storage:link`
+Clone Repository
+
+```
+https://github.com/ch-hamzzyy/Laravel-Ecommerce.git
+```
+
+Change Directory And Setup Environment
+```
+cd Laravel-Ecommerce
+```
+```
+cp .env.example .env
+```
 
 ### Database
 
