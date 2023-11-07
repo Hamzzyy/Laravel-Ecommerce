@@ -13,7 +13,10 @@ cd Laravel-Ecommerce
 ```
 cp .env.example .env
 ```
+### Database
+
 `Create a Database Named "ecommerce" which is Default but you can change it in .env file`
+* Set your database credentials in your `.env` file
 
 Install Dependencies 
 
@@ -34,9 +37,7 @@ Generate Application Key
 ```
 php artisan key:generate
 ```
-### Database
 
-* Set your database credentials in your `.env` file
 * migrate and seed the normal way with `php artisan migrate --seed`
 
 ### Mail
