@@ -23,6 +23,17 @@ composer install
 ```
 npm install
 ```
+
+Populate Database 
+
+```
+php artisan migrate --seed
+```
+
+Generate Application Key
+```
+php artisan key:generate
+```
 ### Database
 
 * Set your database credentials in your `.env` file
