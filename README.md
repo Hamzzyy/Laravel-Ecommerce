@@ -13,7 +13,16 @@ cd Laravel-Ecommerce
 ```
 cp .env.example .env
 ```
+`Create a Database Named `ecommerce` which is Default but you can change it in .env file`
 
+Install Dependencies 
+
+```
+composer install
+```
+```
+npm install
+```
 ### Database
 
 * Set your database credentials in your `.env` file
