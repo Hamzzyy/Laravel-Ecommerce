@@ -3,7 +3,7 @@
 ### Clone Repository
 
 ```
-https://github.com/ch-hamzzyy/Laravel-Ecommerce.git
+https://github.com/hamzzyy/Laravel-Ecommerce.git
 ```
 
 ### Change Directory And Setup Environment
