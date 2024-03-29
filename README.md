@@ -59,3 +59,20 @@ npm run dev
 * Before Pushing In Production Make Sure To Run `npm run build`
 
 
+### Screenshots
+
+#### Home Page
+
+![Home Page](https://raw.githubusercontent.com/Hamzzyy/Laravel-Ecommerce/master/screenshots/home.png)
+
+#### Cart
+
+![Cart](https://raw.githubusercontent.com/Hamzzyy/Laravel-Ecommerce/master/screenshots/cart.png)
+
+#### User Order
+
+![User Order](https://raw.githubusercontent.com/Hamzzyy/Laravel-Ecommerce/master/screenshots/user_order.png)
+
+#### Admin Dashboard
+
+![Admin Dashboard](https://raw.githubusercontent.com/Hamzzyy/Laravel-Ecommerce/master/screenshots/admin_dashboard.png)
