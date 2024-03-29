@@ -13,7 +13,7 @@
     {{ $style ?? '' }}
 
     <link rel="shortcut icon" href="{{ asset('img/b.png') }}" />
-    <title>Beyond | Profile</title>
+    <title>Ecommerce | Profile</title>
 
     <script src="{{ asset('js/user/utilities.js') }}" defer></script>
 

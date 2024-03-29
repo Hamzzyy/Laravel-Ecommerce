@@ -14,7 +14,7 @@
         {{ $style }}
 
     <link rel="shortcut icon" href="{{ asset('img/b.png') }}" />
-    <title>Beyond</title>
+    <title>Ecommerce</title>
 
     <!-- scripts -->
     <script src="{{ asset('js/admin/utilities.js') }}" defer></script>

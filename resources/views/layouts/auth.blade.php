@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/auth.css') }}">
 
-    <title>Beyond</title>
+    <title>Ecommerce</title>
 </head>
 <body>
     <main>

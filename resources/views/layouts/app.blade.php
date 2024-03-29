@@ -14,7 +14,7 @@
 
 
     <link rel="shortcut icon" href="{{ asset('img/b.png') }}" />
-    <title>Beyond | Science shop</title>
+    <title>Ecommerce | Science shop</title>
 
     <script src="{{ asset('js/utilities.js') }}" defer></script>
     {{ $js ?? '' }}
@@ -34,7 +34,7 @@
         <div class="site-info">
             <a class="logo-link d-b" href="#"><img class="d-b" src="{{ asset('img/logo.jpg') }}"
                     alt="logo"></a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Kunal Saini !</p>
+            <p>Ecommerce website</p>
         </div>
     </footer>
 </body>
